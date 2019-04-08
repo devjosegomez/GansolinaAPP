@@ -1,0 +1,9 @@
+tspan {
+    font: 0.43rem sans-serif;
+}
+
+@media (max-width: 576px) {
+    tspan {
+        font: 0.27rem sans-serif;
+    }
+}

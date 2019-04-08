@@ -1,0 +1,51 @@
+#map{
+    height: 100%;
+    width: 100%;
+}
+.marker{
+    background-image: url("../images/ganzo.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.mapboxgl-user-location-dot{
+    background-image: url("../images/ganzo.png") !important;
+    background-size: cover !important;;
+    width: 30px !important;;
+    height: 30px !important;;
+    border-radius: 50%;
+    cursor: pointer !important;
+}
+
+.mapboxgl-user-location-dot::after{
+    background-image: url("../images/ganzo.png") !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+}
+
+.mapboxgl-user-location-dot::after{
+    top:0px !important;
+    left: 0px !important;
+    border: 0px solid black !important;
+}
+
+.mapboxgl-user-location-dot::before{
+    background-color: #1da1f2;
+    left: 8px;
+    top: 8px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    -moz-animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    -ms-animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    animation: mapboxgl-user-location-dot-pulse 2s infinite;
+}

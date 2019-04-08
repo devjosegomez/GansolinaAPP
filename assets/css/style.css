@@ -1,0 +1,34 @@
+.gas{
+  color: white;
+  text-transform: uppercase;
+}
+.premium{
+    background-color: #9D141C;
+}
+.magna{
+    background-color: #023D29;
+}
+.diesel{
+    background-color:#050505;
+}
+
+.fa-fire-alt{
+    color: red;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#target {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c3-line-premium{
+    color: red; !important;
+    background-color: red;
+    stroke-width: 5px;
+}

@@ -1,0 +1,47 @@
+[{
+        "type": "premium",
+        "price": 21.42,
+        "location": {
+            "name": "Gas Circunvalación",
+            "address_street": "Av. Circunvalación Agustín Yáñez 1306, Moderna",
+            "x": -103.3582,
+            "y": 20.66038
+        },
+        "gas":{
+            "p": 21.42,
+            "m": 20.92,
+            "d": 22.30
+        },
+        "stars":4
+}, {
+        "type": "magna",
+        "price": 20.76,
+        "location": {
+            "name": "Gas Chapalita",
+            "address_street": " Av. Chapalita No. 1010, Chapalita",
+            "x": -103.3906,
+            "y": 20.66259
+        },
+        "gas":{
+            "p": 21.71,
+            "m": 20.76,
+            "d": 22.90
+        },
+        "stars":5
+}, {
+        "type": "diesel",
+        "price": 22.05,
+        "location": {
+            "name": "Gas 8 de Julio",
+            "address_street": "Avenida 8 de Julio No. 2236, Col. Industrial",
+            "x": -103.3626,
+            "y":  20.64556
+        },
+        "gas":{
+            "p": 21.73,
+            "m": 20.84,
+            "d": 22.05
+        },
+        "stars":4
+}
+]

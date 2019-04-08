@@ -1,0 +1,169 @@
+body {
+    overflow-x:hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#mainBlock{
+    margin-top: 66px;
+}
+
+svg{
+    background-color: white;
+}
+
+#graficas {
+    height: 15vh;
+    width: 95%;
+}
+
+#contenedorMapa {
+    height: 100vh;
+    border: 0 solid black;
+    padding: 0px;
+}
+
+#mapa {
+    height: 100%;
+    width: 100%;
+}
+
+#carta {
+    overflow: auto;
+    z-index: 3;
+    position: absolute;
+    margin-left: -500px;
+    transition: 1s;
+    height: 100%;
+}
+/* best prices  */
+
+.magna {
+    background-color: #00862d;
+    color: white;
+    border-radius: 0px;
+}
+
+ .premium {
+    background-color: #e6182f;
+    color: white;
+    border-radius: 0px;
+}
+
+.diesel {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+
+/* best prices  */
+
+
+/* Css de scroll   */
+.star{
+    color: yellow;
+}
+body::-webkit-scrollbar {
+    width: 13px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-reflect: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(138, 30, 30);
+  outline: 1px solid rgb(54, 83, 111);
+}
+/* Css de scroll   */
+
+
+/* Css best prices (fake button)*/
+.magna {
+    background-color: #00862d;
+    color: white;
+    border-radius: 0px;
+}
+
+.premium {
+    background-color: #e6182f;
+    color: white;
+    border-radius: 0px;
+}
+
+.diesel {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+
+.star{
+    color: yellow;
+}
+
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+} 
+
+#gansoEgg{
+    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#gansoEggBox{
+    height: 100vh;
+    width: 100%;
+    background-color: animation rainbow 5s infinite; 
+ /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 10s infinite; 
+}
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+.fakeBtn:hover{
+    border-left: 2px solid yellow;
+    border-right: 4px solid yellow;
+    cursor: pointer;
+}
+
+/* Css best prices (fake button)*/
+
+#btnClose{
+    height: 25px;
+    width: 25px;
+    float: right;
+    background-color: beige;
+}
+
+.fa-times{
+    color: red;
+}
